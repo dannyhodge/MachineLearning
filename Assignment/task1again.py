@@ -25,17 +25,18 @@ for filename in glob.glob('train/*.png'): #assuming png
     #print(firstChar)
     im=Image.open(filename).convert('LA')
     im=array(im)
+    print(im)
     train_images.append(im)
 
 
-for images 
+#for images
 
 
-test_images = []
-for filename in glob.glob('test/*.png'): #assuming png
-    im=Image.open(filename).convert('LA')
+#test_images = []
+#for filename in glob.glob('test/*.png'): #assuming png
+    #im=Image.open(filename).convert('LA')
    # print(im)
-    test_images.append(im)
+   # test_images.append(im)
 
 
 # The data that we are interested in is made of 8x8 images of digits, let's
